@@ -1,3 +1,28 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    background-color: red;
+    padding: 20px;
+    margin: 0 auto;
+    background: linear-gradient(top, #222, #333);
+    max-width: 1300px;
+    color: #595B66;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    color: #797979;
+    border-bottom: solid 2px #797979;
+    padding: 5px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    background: #797979;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    line-height: 2;;
 }

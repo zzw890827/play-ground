@@ -20,7 +20,7 @@ the server.
 - [x] html
 - [x] css
 - [x] js (ES6)
-- [ ] img
+- [x] img
 - [ ] sass
 - [ ] pug
 - [ ] Typescript

@@ -1,5 +1,5 @@
 ## webpack-hmr-dev-env
-If you are studying js, html or css, this environment may be helpful.
+A web scaffold for building a development environment.
 
 ### Usage
 Edit ```index.js```, ```template.html``` or ```style.css``` and then run start,

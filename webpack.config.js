@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Abstract',
+      title: 'HMR Dev Env',
       template: './src/template.html',
     }),
     new CleanWebPackPlugin(),

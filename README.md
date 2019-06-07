@@ -23,4 +23,4 @@ the server.
 - [x] img
 - [ ] sass
 - [ ] pug
-- [ ] Typescript
+- [x] Typescript

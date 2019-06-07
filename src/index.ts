@@ -1,9 +1,30 @@
 import './style.css';
 
-function greeter(person: string) {
-    return "Hello, " + person;
+class Language {
+    constructor(public str: string) {
+    }
 }
 
-let user = "TypeScript";
+interface Say {
+    greed(): void;
+}
 
-document.body.innerHTML = greeter(user);
+class Greed extends Language implements Say {
+    public target: string;
+
+    constructor(target: string, greedStr: string) {
+        super(greedStr);
+        this.target = target;
+    }
+
+    greed() {
+        let body = document.body;
+        let h1 = document.createElement('h1');
+        let txt = document.createTextNode(`${this.str} ${this.target}`);
+        h1.appendChild(txt);
+        body.append(h1);
+    }
+}
+
+let hello: Greed = new Greed('TypeScript', 'Hello');
+hello.greed();

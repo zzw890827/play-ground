@@ -11,8 +11,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'HMR Dev Env',
-      template: './src/template.html',
+      template: './src/index.pug',
     }),
     new CleanWebPackPlugin(),
   ],
@@ -49,6 +48,10 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.pug?$/,
+        use: 'pug-loader',
       }
     ]
   },

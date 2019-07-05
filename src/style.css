@@ -1,0 +1,13 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}

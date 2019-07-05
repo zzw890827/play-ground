@@ -26,5 +26,5 @@ class Greed extends Language implements Say {
     }
 }
 
-let hello: Greed = new Greed('TypeScript', 'Hello');
+let hello: Greed = new Greed('TypeScript + Pug', 'Hello');
 hello.greed();

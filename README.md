@@ -22,5 +22,5 @@ the server.
 - [x] js (ES6)
 - [x] img
 - [ ] sass
-- [ ] pug
+- [X] pug
 - [x] Typescript

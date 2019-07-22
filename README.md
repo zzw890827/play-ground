@@ -1,5 +1,5 @@
-## webpack-hmr-dev-env
-A web scaffold for building a development environment.
+## play-ground-app
+You can use this app to practice web development.
 
 ### Usage
 Edit ```index.js```, ```template.html``` or ```style.css``` and then run start,
@@ -24,3 +24,4 @@ the server.
 - [ ] sass
 - [X] pug
 - [x] Typescript
+- [ ] Stylus

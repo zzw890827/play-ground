@@ -23,7 +23,7 @@
     "html-loader": "^0.5.5",
     "typescript": "^3.5.1",
     "ts-loader": "^6.0.2",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "dependencies": {
     "pug-loader": "^2.4.0"
